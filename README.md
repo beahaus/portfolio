@@ -7,3 +7,5 @@ corrected active link via nav-item active for index.html, portfolio.html, and co
 removed toggle for xs small screens, nav bar does not collapse.
 
 changed to navbar-dark and bg-dark
+
+created two seperate nav classes to allow for specifications. justify-content-center for each for alignment
