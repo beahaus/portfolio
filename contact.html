@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body style="background-color: lightgrey;">
- 
+
 <!-- navbar -->
   <nav class="navbar navbar-dark justify-content-center col-lg-6 col-md-6 col-sm-12 col-xs-12" style="float: left; background-color: #46cf67;">
     <a class="navbar-brand" href="index.html">Bea House</a>
@@ -29,6 +29,7 @@
 <!-- nav bar -->
 
 <!-- contact form -->
+<div class="wrap">
   <div class="container" style="width:75%;">
     <div class="card m-3 mx-auto">
       <div class="card-body">
@@ -46,7 +47,7 @@
           </div>
         
           <div class="form-group">
-            <label for="email">Email address</>
+            <label for="email">Email Address</label>
             <input type="email" class="form-control" id="email" placeholder="example@example.com">
           </div>
        
@@ -60,16 +61,40 @@
       </div>
     </div>
   </div>
+</div>
+
 <!-- contact form -->
 
 <!-- footer -->
-  <footer class="py-4" style="bottom: 0; width: 100%; background-color: #46cf67; color: white;">
+  <footer class="footer mt-auto py-3" style="width: 100%; background-color: #46cf67; color: white;">
     <div class="container text-center">
-      <p>This is my misbehaving footer</p>
+      <span>This is my misbehaving footer</span>
     </div>
   </footer>
 <!-- footer -->
 
+<!-- footer styling -->
+  <style>
+    html, body {
+      height: 95%;
+    }
+    .wrap {
+      min-height: 95%;
+      /* equal to footer height */
+      margin-bottom: 50px; 
+    }
+    .wrap:after {
+      content: "";
+      display: block;
+    }
+    .footer.mt-auto.py-3, .wrap:after {
+      height: 75px; 
+    }
+    .footer.mt-auto.py-3 {
+      background: orange;
+    }
+  </style>
+<!-- footer styling -->
 </body>
 </html>
 
