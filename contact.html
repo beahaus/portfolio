@@ -13,7 +13,7 @@
     <a class="navbar-brand" href="index.html">Bea House</a>
   </nav>
 
-  <nav class="navbar navbar-expand navbar-light bg-light justify-content-center" id="navbarSupportedContent">
+  <nav class="navbar navbar-expand navbar-light bg-light justify-content-center">
     <ul class="navbar-nav mr-auto=">
       <li class="nav-item">
         <a class="nav-link" href="index.html">About</a>
@@ -30,16 +30,21 @@
 
   <!-- contact form -->
   <div class="container">
-  <div class="card m-3 mx-auto" style="width: 75%;">
-    <div class="card-body">
-      <h3 class="card-title">Contact</h3>
-      <div class="container" style="border-top: 1px; border-style: solid; margin-bottom: 20px; border-color: lightgrey;">
-      </div>
+    <div class="card m-3 mx-auto" style="width: 75%;">
+      <div class="card-body">
+        <h3 class="card-title">Contact</h3>
+
+        <!-- grey bar -->
+        <div class="container" style="border-top: 1px; border-style: solid; margin-bottom: 20px; border-color: lightgrey;">
+        </div>
+        <!-- grey bar -->
+
       <form>
         <div class="form-group">
           <label for="name">Name</label>
           <input type="name" class="form-control" id="name" placeholder="Johnny Appleseed">
         </div>
+        
         <div class="form-group">
           <label for="email">Email address</label>
           <input type="email" class="form-control" id="email" placeholder="example@example.com">
@@ -57,13 +62,11 @@
   <!-- contact form -->
 
   <!-- footer -->
-  <footer class="page-footer" style="position: absolute; bottom: 0; width: 100%;"> 
-  <div class="navbar navbar-light bg-light  justify-content-center mt-3">
-    <span class="navbar-text">
-      This is some text
-    </span>
-  </div>
-</footer>
+  <footer id="sticky-footer" class="py-4 bg-light" style="position: absolute; bottom: 0; width: 100%;">
+    <div class="container text-center">
+      <p>This is some text</p>
+    </div>
+  </footer>
   <!-- footer -->
 
 </body>
