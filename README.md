@@ -1,4 +1,6 @@
 # Portfolio
 
-This project was designed using HTML, CSS, and the Twitter Bootstrap Framework.
+We were tasked with using Twitter's Bootstrap to create a responsive, multi-page website.
+
+
 
