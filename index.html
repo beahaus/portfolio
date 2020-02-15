@@ -5,6 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bea House | About</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+      /* image hover styling */
+        .card-img-top.mb-3.col-lg-6 {          
+          transition: transform .4s; /* Animation */
+        }
+        .card-img-top.mb-3.col-lg-6:hover {
+          transform: scale(1.8);
+        }
+      /* image hover styling */
+      /* footer styling */
+        html, body {
+          height: 95%;
+        }
+        .wrap {
+          min-height: 95%;
+        /* equal to footer height */
+          margin-bottom: 50px; 
+        }
+        .wrap:after {
+          content: "";
+          display: block;
+        }
+        .footer.mt-auto.py-3, .wrap:after {
+          height: 75px; 
+        }
+        .footer.mt-auto.py-3 {
+          background: orange;
+        }
+      /* footer styling */
+    </style>
 </head>
 <body style="background-color: lightgrey;">
 
@@ -38,7 +68,7 @@
             <!-- horizontal bar -->
             <div class="container" style="border-top: 1px; border-style: solid; margin-bottom: 20px; border-color: #46cf67;">
             </div>
-          <!-- horizontal bar -->
+            <!-- horizontal bar -->
         
           <img src="assets/sample.jpeg" class="card-img-top mb-3 col-lg-6" style="width: 100%; heigth: 200px; max-width: 330px; float:left; border-radius: 50%;" alt="">
           <div class="container" style="">
@@ -57,17 +87,6 @@
   </div>
 <!-- about me info -->
 
-<!-- image hover styling -->
-  <style>
-    .card-img-top.mb-3.col-lg-6 {          
-      transition: transform .4s; /* Animation */
-    }
-    .card-img-top.mb-3.col-lg-6:hover {
-      transform: scale(1.8);
-    }
-  </style>
-<!-- image hover styling -->
-
 <!-- footer -->
   <footer class="footer mt-auto py-3" style="width: 100%; background-color: #46cf67; color: white;">
     <div class="container text-center">
@@ -75,29 +94,6 @@
     </div>
   </footer>
 <!-- footer -->
-
-<!-- footer styling -->
-  <style>
-    html, body {
-      height: 95%;
-    }
-    .wrap {
-      min-height: 95%;
-      /* equal to footer height */
-      margin-bottom: 50px; 
-    }
-    .wrap:after {
-      content: "";
-      display: block;
-    }
-    .footer.mt-auto.py-3, .wrap:after {
-      height: 75px; 
-    }
-    .footer.mt-auto.py-3 {
-      background: orange;
-    }
-  </style>
-<!-- footer styling -->
 
 </body>
 </html>
